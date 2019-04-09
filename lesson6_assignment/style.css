@@ -96,3 +96,57 @@ iframe {
 	padding: 8px;
 	margin: 8px;
 }
+
+
+#splash{
+        height: 1000px;
+        background: url(images/Cameras.jpg) no-repeat center top fixed;
+   	    background-size: contain;
+        
+    
+ }
+ 
+  #overview{
+        background-color: #3f5666;
+        height: 1000px;
+        color: #ffffff;
+        padding-top: 25px;
+        padding-left: 75px;
+        padding-right: 75px;
+    
+ }
+ 
+  #media{
+        background-color: #2f3440;
+        color: #ffffff;
+        padding-top: 50px;
+        padding-left: 75px;
+        padding-right: 75px;
+ }
+ 
+  #author{
+        background-color: #3f5666;
+        color: #ffffff;        
+        padding-top: 75px;
+        padding-left: 75px;
+        padding-right: 75px;
+        margin-bottom: 50px;
+ }
+ 
+  #footer{
+        color: #3f5666;
+        padding-top: 5px ;
+ }
+ .container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 50px ;
+  overflow: hidden;
+ }
+ 
+ 
+ #navbar{
+	position: fixed; /* navbar should always be shown even when page is scrolled */
+	top: 0;
+	width: 100%;
+	height: 25px;
+ }
