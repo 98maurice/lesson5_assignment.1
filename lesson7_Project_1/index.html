@@ -33,7 +33,7 @@
         
  
     
-        
+      <div id="overview" >
         <h2><em>Overview</em></h2>
             
             <p>Tech went to Washington this week, and their biggest problems followed them.</p>
@@ -48,9 +48,9 @@
             <p><em><strong>"It has become appallingly obvious that our technology has exceeded our humanity."   -Albert Einstein</strong></em></p>
             
             <hr> 
-
+    </div>  
   
-          
+     <div id="media">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/_yKga54tx6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p><em>Chinese people already utilize the skin detecting cameras.</em></p>
         <hr>
@@ -118,9 +118,9 @@
                 
             </ul> 
             
-        
+        </div>     
       
-    
+        <div id="author">
         
                     <img src="images/real_me.jpg"/>
                     <p><em>I am Maurice Channelle and from florida as you can see i tried to place a palm tree next to the icon that represents so you can catch that. I made this website to give a vivid analysis on the upcoming camera technology that can detect skin color.</em></p>
@@ -148,14 +148,25 @@
     
       
     <p>&copy;<a href="mailto:mac17g@my.fsu.edu"> Maurice Channelle</a> 9/12/2018,</p>
+  </div>  
     
-    
-    
-   
-   
-  
-    
-    
-    
- </body>
+  <!-- JAVASCRIPT CODE -->
+<!--jquery required for scrolling effect -->
+<script src="js/jquery.js"></script>
+<!-- Scrolling navigation script by Geo Miller glmiller@pic.fsu.edu -->  
+<script type='text/javascript'>
+jQuery(document).ready(function () {
+  jQuery('.button').click(function() {
+    targetName = jQuery(this).attr('href');
+    targetLocation = jQuery(targetName).offset().top;
+    jQuery('html, body').animate({scrollTop:targetLocation}, 'slow');
+    return false;
+  });
+});
+
+
+
+
+</script>     
+</body>
 </html>
